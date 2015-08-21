@@ -193,18 +193,13 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(\))(\n)?</string>
+			<string>(\))</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.section.expression.end.clojure</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>meta.after-expression.clojure</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -269,18 +264,13 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(\))(\n)?</string>
+			<string>(\))</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>punctuation.section.expression.end.clojure</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>meta.after-expression.clojure</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -289,7 +279,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>(?&lt;=\()(ns|def|def-|defn|defn-|defvar|defvar-|defmacro|defmacro-|deftest)\s+(.+?)(?=\s)</string>
+					<string>(?&lt;=\()(ns|def|def-|defn|defn-|defvar|defvar-|defmacro|defmacro-|deftest)\s+</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
